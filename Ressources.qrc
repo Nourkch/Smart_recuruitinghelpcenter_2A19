@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>ABOUT-icon-png.png</file>
+        <file>filter-icon-png.png</file>
+        <file>icons8-chercher-50.png</file>
+        <file>icons8-comment-64.png</file>
+        <file>icons8-impression-50.png</file>
+        <file>icons8-ajouter-un-utilisateur-homme-30.png</file>
+        <file>icons8-modifier-24.png</file>
+        <file>icons8-supprimer-l'utilisateur-homme-30.png</file>
+        <file>icons8-afficher-toutes-les-vues-24.png</file>
+        <file>notification-icon-3.png</file>
+    </qresource>
+</RCC>
