@@ -2,23 +2,78 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QMessageBox>
+#include "candidatss.h"
 
-QT_BEGIN_NAMESPACE
-namespace Ui { class MainWindow; }
-QT_END_NAMESPACE
+namespace Ui {
+class MainWindow;
+}
 
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    MainWindow(QWidget *parent = nullptr);
+    explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
 private slots:
-    void on_actionCommentaires_triggered();
+    void on_pushButton_valider_clicked();
+
+    void on_bouton_ajouter_clicked();
+
+    void on_bouton_supprimer_clicked();
+
+    void on_pushButton_valider_supprimer_clicked();
+
+    void on_pushButton_annuler_supprimer_clicked();
+
+    void on_pushButton_annuler_clicked();
+
+    void on_bouton_modifier_clicked();
+
+    void on_pushButton_valider_2_clicked();
+
+    void on_pushButton_annuler_2_clicked();
+
+    void on_pushButton_modif_valider_clicked();
+
+    void on_pushButton_modif_annuler_clicked();
+
+    void on_bouton_afficher_clicked();
+
+    void on_triASC_clicked();
+
+    void on_triDEC_clicked();
+
+    void on_lineEdit_nom_cursorPositionChanged(int arg1, int arg2);
+
+    void on_lineEdit_prenom_cursorPositionChanged(int arg1, int arg2);
+
+    void on_lineEdit_cin_cursorPositionChanged(int arg1, int arg2);
+
+    void on_lineEdit_email_cursorPositionChanged(int arg1, int arg2);
+
+    void on_lineEdit_code_postal_cursorPositionChanged(int arg1, int arg2);
+
+    void on_lineEdit_rue_cursorPositionChanged(int arg1, int arg2);
+
+    void on_lineEdit_modif_nom_cursorPositionChanged(int arg1, int arg2);
+
+    void on_lineEdit_modif_prenom_cursorPositionChanged(int arg1, int arg2);
+
+    void on_lineEdit_modif_cin_cursorPositionChanged(int arg1, int arg2);
+
+    void on_lineEdit_modif_email_cursorPositionChanged(int arg1, int arg2);
+
+    void on_lineEdit_modif_rue_cursorPositionChanged(int arg1, int arg2);
+
+    void on_lineEdit_modif_codePostal_cursorPositionChanged(int arg1, int arg2);
 
 private:
     Ui::MainWindow *ui;
+
+    Candidatss tabCandidat;
 };
+
 #endif // MAINWINDOW_H
