@@ -4,7 +4,7 @@
 #include <QMainWindow>
 #include <QMessageBox>
 #include "candidatss.h"
-
+#include<QSystemTrayIcon>
 namespace Ui {
 class MainWindow;
 }
@@ -70,9 +70,23 @@ private slots:
 
     void on_lineEdit_modif_codePostal_cursorPositionChanged(int arg1, int arg2);
 
+    void on_bouton_recherche_clicked();
+
+    void on_pushButton_pdf_clicked();
+
+    void on_pushButton_clicked();
+
+    void on_pushButton_excel_clicked();
+
+    void on_pushButton_aide_clicked();
+
+    void on_pushButton_google_clicked();
+
+    void on_pushButton_stat_clicked();
+
 private:
     Ui::MainWindow *ui;
-
+QSystemTrayIcon *mSystemTrayIcon ;
     Candidatss tabCandidat;
 };
 

@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>890</width>
+    <width>1086</width>
     <height>647</height>
    </rect>
   </property>
@@ -18,13 +18,22 @@
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QStackedWidget" name="stackedWidget">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>60</x>
       <y>0</y>
-      <width>851</width>
+      <width>931</width>
       <height>591</height>
      </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
     </property>
     <property name="currentIndex">
      <number>0</number>
@@ -33,100 +42,257 @@
      <widget class="QTableView" name="tabCandidat">
       <property name="geometry">
        <rect>
-        <x>0</x>
-        <y>40</y>
-        <width>661</width>
-        <height>491</height>
+        <x>50</x>
+        <y>70</y>
+        <width>641</width>
+        <height>431</height>
        </rect>
       </property>
      </widget>
      <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
-        <x>670</x>
-        <y>60</y>
-        <width>181</width>
-        <height>381</height>
+        <x>720</x>
+        <y>50</y>
+        <width>151</width>
+        <height>472</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout">
        <item>
         <widget class="QPushButton" name="bouton_ajouter">
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent; border: 0px 
+
+</string>
+         </property>
          <property name="text">
-          <string>Ajouter</string>
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/new/prefix1/resources/icons8-ajouter-un-utilisateur-homme-48.png</normaloff>:/new/prefix1/resources/icons8-ajouter-un-utilisateur-homme-48.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="bouton_modifier">
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent; border: 0px 
+</string>
+         </property>
          <property name="text">
-          <string>Modifier</string>
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/new/prefix1/resources/icons8-paramètres-48.png</normaloff>:/new/prefix1/resources/icons8-paramètres-48.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="bouton_supprimer">
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent; border: 0px 
+</string>
+         </property>
          <property name="text">
-          <string>Supprimer</string>
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/new/prefix1/resources/icons8-supprimer-l'utilisateur-homme-48.png</normaloff>:/new/prefix1/resources/icons8-supprimer-l'utilisateur-homme-48.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="bouton_afficher">
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent; border: 0px 
+</string>
+         </property>
          <property name="text">
-          <string>Afficher</string>
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/new/prefix1/resources/icons8-screen-64.png</normaloff>:/new/prefix1/resources/icons8-screen-64.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_pdf">
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent; border: 0px 
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/new/prefix1/resources/pdf.png</normaloff>:/new/prefix1/resources/pdf.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>100</width>
+           <height>100</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_excel">
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent; border: 0px 
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/new/prefix1/resources/excel.png</normaloff>:/new/prefix1/resources/excel.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>100</width>
+           <height>100</height>
+          </size>
          </property>
         </widget>
        </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="layoutWidget">
+     <widget class="QPushButton" name="pushButton_stat">
       <property name="geometry">
        <rect>
-        <x>40</x>
-        <y>540</y>
-        <width>241</width>
-        <height>27</height>
+        <x>10</x>
+        <y>30</y>
+        <width>80</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="">
+      <property name="geometry">
+       <rect>
+        <x>181</x>
+        <y>20</y>
+        <width>391</width>
+        <height>32</height>
        </rect>
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout_6">
        <item>
-        <widget class="QPushButton" name="pushButton_aide">
+        <widget class="QLineEdit" name="lineEdit_recherche_texte">
          <property name="text">
-          <string>Aide</string>
+          <string/>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton_imprimer">
+        <widget class="QPushButton" name="bouton_recherche">
+         <property name="styleSheet">
+          <string notr="true">border-image: url(:/new/prefix1/resources/loupe_chercher.png);</string>
+         </property>
          <property name="text">
-          <string>Imprimer</string>
+          <string/>
          </property>
         </widget>
        </item>
-      </layout>
-     </widget>
-     <widget class="QWidget" name="layoutWidget">
-      <property name="geometry">
-       <rect>
-        <x>710</x>
-        <y>470</y>
-        <width>98</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <layout class="QVBoxLayout" name="verticalLayout_4">
        <item>
         <widget class="QPushButton" name="triASC">
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent; border: 0px 
+
+</string>
+         </property>
          <property name="text">
-          <string>Tri Ascendant</string>
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/new/prefix1/resources/icons8-flèche-haut-48.png</normaloff>:/new/prefix1/resources/icons8-flèche-haut-48.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="triDEC">
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent; border: 0px 
+
+</string>
+         </property>
          <property name="text">
-          <string>Tri Descendant</string>
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/new/prefix1/resources/icons8-flèche-bas-48.png</normaloff>:/new/prefix1/resources/icons8-flèche-bas-48.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_google">
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent; border: 0px 
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/new/prefix1/resources/icons8-chrome-48.png</normaloff>:/new/prefix1/resources/icons8-chrome-48.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
          </property>
         </widget>
        </item>
@@ -152,13 +318,12 @@
        <rect>
         <x>40</x>
         <y>20</y>
-        <width>291</width>
+        <width>311</width>
         <height>61</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">font: 75 11pt &quot;MS Shell Dlg 2&quot;;
-</string>
+       <string notr="true">font: 75 11pt &quot;MS Shell Dlg 2&quot;;</string>
       </property>
       <property name="text">
        <string>Veuillez remplir ce formulaire : </string>
@@ -254,6 +419,10 @@
        </item>
        <item>
         <widget class="QComboBox" name="comboBox_sexe">
+         <property name="styleSheet">
+          <string notr="true">font: 75 italic 9pt &quot;Arial&quot;;
+</string>
+         </property>
          <item>
           <property name="text">
            <string>Homme</string>
@@ -302,6 +471,10 @@
        </item>
        <item>
         <widget class="QComboBox" name="comboBox_ville">
+         <property name="styleSheet">
+          <string notr="true">font: 75 italic 9pt &quot;Arial&quot;;
+</string>
+         </property>
          <item>
           <property name="text">
            <string>Ariana</string>
@@ -459,24 +632,52 @@
      <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
-        <x>250</x>
-        <y>530</y>
-        <width>281</width>
-        <height>27</height>
+        <x>390</x>
+        <y>500</y>
+        <width>136</width>
+        <height>62</height>
        </rect>
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout_5">
        <item>
         <widget class="QPushButton" name="pushButton_annuler">
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent; border: 0px 
+</string>
+         </property>
          <property name="text">
-          <string>Annuler</string>
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/new/prefix1/resources/icons8-supprimer-l'utilisateur-homme-48.png</normaloff>:/new/prefix1/resources/icons8-supprimer-l'utilisateur-homme-48.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="pushButton_valider">
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent; border: 0px 
+</string>
+         </property>
          <property name="text">
-          <string>Valider</string>
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/new/prefix1/resources/icons8-utilisateur-vérifié-homme-48.png</normaloff>:/new/prefix1/resources/icons8-utilisateur-vérifié-homme-48.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
          </property>
         </widget>
        </item>
@@ -512,21 +713,49 @@
         <x>260</x>
         <y>310</y>
         <width>291</width>
-        <height>27</height>
+        <height>69</height>
        </rect>
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout_2">
        <item>
         <widget class="QPushButton" name="pushButton_annuler_supprimer">
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent; border: 0px 
+</string>
+         </property>
          <property name="text">
-          <string>Annuler</string>
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/new/prefix1/resources/icons8-supprimer-l'utilisateur-homme-48.png</normaloff>:/new/prefix1/resources/icons8-supprimer-l'utilisateur-homme-48.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="pushButton_valider_supprimer">
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent; border: 0px 
+</string>
+         </property>
          <property name="text">
-          <string>Valider</string>
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/new/prefix1/resources/icons8-utilisateur-vérifié-homme-48.png</normaloff>:/new/prefix1/resources/icons8-utilisateur-vérifié-homme-48.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
          </property>
         </widget>
        </item>
@@ -554,10 +783,10 @@
      <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
-        <x>120</x>
-        <y>70</y>
+        <x>90</x>
+        <y>60</y>
         <width>641</width>
-        <height>431</height>
+        <height>477</height>
        </rect>
       </property>
       <layout class="QFormLayout" name="formLayout">
@@ -820,24 +1049,52 @@
      <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
-        <x>570</x>
-        <y>520</y>
-        <width>251</width>
-        <height>27</height>
+        <x>530</x>
+        <y>530</y>
+        <width>161</width>
+        <height>69</height>
        </rect>
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout_3">
        <item>
         <widget class="QPushButton" name="pushButton_modif_annuler">
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent; border: 0px 
+</string>
+         </property>
          <property name="text">
-          <string>Annuler</string>
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/new/prefix1/resources/icons8-supprimer-l'utilisateur-homme-48.png</normaloff>:/new/prefix1/resources/icons8-supprimer-l'utilisateur-homme-48.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="pushButton_modif_valider">
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent; border: 0px 
+</string>
+         </property>
          <property name="text">
-          <string>Valider</string>
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/new/prefix1/resources/icons8-utilisateur-vérifié-homme-48.png</normaloff>:/new/prefix1/resources/icons8-utilisateur-vérifié-homme-48.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
          </property>
         </widget>
        </item>
@@ -847,7 +1104,7 @@
       <property name="geometry">
        <rect>
         <x>30</x>
-        <y>30</y>
+        <y>20</y>
         <width>431</width>
         <height>16</height>
        </rect>
@@ -860,6 +1117,25 @@
       </property>
      </widget>
     </widget>
+    <widget class="QWidget" name="page_5">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::WheelFocus</enum>
+     </property>
+     <widget class="QFrame" name="horizontalFrame">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>110</y>
+        <width>711</width>
+        <height>401</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_7"/>
+     </widget>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
@@ -867,7 +1143,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>890</width>
+     <width>1086</width>
      <height>25</height>
     </rect>
    </property>
@@ -883,6 +1159,8 @@
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
  <connections/>
 </ui>

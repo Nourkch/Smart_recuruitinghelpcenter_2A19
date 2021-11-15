@@ -1,23 +1,22 @@
 <RCC>
     <qresource prefix="/new/prefix1">
-        <file>resources/background_vf.png</file>
-        <file>resources/loupe_chercher.png</file>
-        <file>resources/excel.png</file>
-        <file>resources/pdf.png</file>
         <file>resources/aide.png</file>
+        <file>resources/background_vf.png</file>
+        <file>resources/excel.png</file>
         <file>resources/icons8-ajouter-un-utilisateur-homme-48.png</file>
         <file>resources/icons8-flèche-bas-48.png</file>
         <file>resources/icons8-flèche-haut-48.png</file>
         <file>resources/icons8-menu-utilisateur-homme-16.png</file>
+        <file>resources/icons8-menu-utilisateur-homme-40.png</file>
         <file>resources/icons8-paramètres-48.png</file>
+        <file>resources/icons8-screen-64.png</file>
         <file>resources/icons8-supprimer-l'utilisateur-femme-48.png</file>
         <file>resources/icons8-supprimer-l'utilisateur-homme-48.png</file>
         <file>resources/icons8-trouver-l'utilisateur-femme-48.png</file>
         <file>resources/icons8-utilisateur-vérifié-homme-48.png</file>
-        <file>resources/icons8-menu-utilisateur-homme-40.png</file>
-        <file>resources/icons8-screen-64.png</file>
-        <file>resources/pexels-burst-374899.jpg</file>
-        <file>resources/pexels-rfstudio-3810795.jpg</file>
-        <file>resources/pexels-soumil-kumar-735911.jpg</file>
+        <file>resources/loupe_chercher.png</file>
+        <file>resources/pdf.png</file>
+        <file>resources/back.jpg</file>
+        <file>resources/icons8-chrome-48.png</file>
     </qresource>
 </RCC>

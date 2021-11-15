@@ -571,7 +571,7 @@ void MainWindow::on_pushButton_stat_clicked()
                                          while (q.next())
                                          {
                                              int a=q.value(0).toInt();
-                                           *set010 << a ;
+                                           *set010 << a ; // sob l val fel bar 
                                          }
 }
             QBarSeries *series10 = new QBarSeries();
