@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui sql network charts printsupport
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -16,13 +16,26 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    annonce.cpp \
+    connection.cpp \
+    design.cpp \
     gestion_annonces.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    payment.cpp \
+    plan.cpp \
+    smtp.cpp
+
 
 HEADERS += \
+    annonce.h \
+    connection.h \
+    design.h \
     gestion_annonces.h \
-    mainwindow.h
+    mainwindow.h \
+    payment.h \
+    plan.h \
+    smtp.h
 
 FORMS += \
     gestion_annonces.ui \
@@ -32,3 +45,6 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    assets.qrc
