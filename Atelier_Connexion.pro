@@ -5,6 +5,7 @@
 #-------------------------------------------------
 QT       += core gui sql multimedia printsupport charts network serialport
 QT += core gui charts
+QT+=network
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = Atelier_Connexion
@@ -24,19 +25,25 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+    DuMessengerServer.cpp \
+    DuMessengerSocket.cpp \
+    chatclient.cpp \
         main.cpp \
         mainwindow.cpp \
     connection.cpp \
     partenaire.cpp
 
 HEADERS += \
+    DuMessengerServer.h \
+    DuMessengerSocket.h \
+    chatclient.h \
         mainwindow.h \
     connection.h \
     partenaire.h
 
 FORMS += \
         mainwindow.ui
-
+QMAKE_CXXFLAGS += -std=gnu++11
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin

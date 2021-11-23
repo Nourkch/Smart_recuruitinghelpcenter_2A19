@@ -29,6 +29,7 @@ public:
         //fonctionnalites de base relatives a lentite etudiant
        bool ajouter();
        QSqlQueryModel * afficher();
+       QSqlQueryModel* rechercher(const QString &aux);
        bool supprimer (int);
        bool update(int , QString ,QString ,QString,int );
 private :
