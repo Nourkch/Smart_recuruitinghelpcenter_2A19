@@ -1,14 +1,14 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2018-10-26T21:45:23
+# Project created by QtCreator 2018-11-28T00:06:36
 #
 #-------------------------------------------------
-QT       += core gui sql multimedia printsupport charts network serialport
-QT += core gui charts
-QT+=network
+
+QT       += core gui  serialport charts
+
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = Atelier_Connexion
+TARGET = Atelier_Arduino_v2
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -25,25 +25,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
-    DuMessengerServer.cpp \
-    DuMessengerSocket.cpp \
-    chatclient.cpp \
         main.cpp \
-    connection.cpp \
-    mainwindow.cpp \
-    partenaire.cpp
+        mainwindow.cpp \
+    arduino.cpp
 
 HEADERS += \
-    DuMessengerServer.h \
-    DuMessengerSocket.h \
-    chatclient.h \
-    connection.h \
-    mainwindow.h \
-    partenaire.h
+        mainwindow.h \
+    arduino.h
 
 FORMS += \
-    mainwindow.ui
-QMAKE_CXXFLAGS += -std=gnu++11
+        mainwindow.ui
+
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
