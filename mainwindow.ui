@@ -6,21 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>852</width>
-    <height>618</height>
+    <width>1307</width>
+    <height>772</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QTabWidget" name="Login">
+   <widget class="QTabWidget" name="acceuil">
     <property name="geometry">
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>871</width>
-      <height>621</height>
+      <width>1191</width>
+      <height>751</height>
      </rect>
     </property>
     <property name="toolTip">
@@ -28,419 +28,31 @@
     </property>
     <property name="styleSheet">
      <string notr="true">background-color:rgb(64, 130, 200);
-background-image: url(draft.png);</string>
+</string>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
-      <string> Login</string>
+      <string>acceuil</string>
      </attribute>
-     <widget class="QLabel" name="label_2">
-      <property name="geometry">
-       <rect>
-        <x>210</x>
-        <y>160</y>
-        <width>41</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>ID :</string>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="lineEdit_2">
+     <widget class="QLineEdit" name="lineEdit_NSS">
       <property name="geometry">
        <rect>
         <x>240</x>
-        <y>160</y>
-        <width>113</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>EXP:189GTT2929</string>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="lineEdit_3">
-      <property name="geometry">
-       <rect>
-        <x>240</x>
-        <y>200</y>
-        <width>113</width>
-        <height>20</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_3">
-      <property name="geometry">
-       <rect>
-        <x>160</x>
-        <y>200</y>
-        <width>81</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>PASSWORD :</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>200</y>
-        <width>75</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>login</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_4">
-      <property name="geometry">
-       <rect>
-        <x>270</x>
-        <y>220</y>
-        <width>111</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>forgot password ?</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_5">
-      <property name="geometry">
-       <rect>
-        <x>270</x>
-        <y>120</y>
-        <width>71</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>LOGIN</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="tab_2">
-     <attribute name="title">
-      <string>acceuil et ajout</string>
-     </attribute>
-     <widget class="QPushButton" name="ajouter">
-      <property name="geometry">
-       <rect>
-        <x>490</x>
-        <y>370</y>
-        <width>131</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(49, 49, 183, 250), stop:1 rgba(0, 93, 255, 255));
-color: rgb(255, 255, 255);
-font: 75 8pt &quot;The Bold Font&quot;;</string>
-      </property>
-      <property name="text">
-       <string>ajouter</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line">
-      <property name="geometry">
-       <rect>
-        <x>320</x>
-        <y>90</y>
-        <width>21</width>
-        <height>361</height>
-       </rect>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label">
-      <property name="geometry">
-       <rect>
-        <x>410</x>
-        <y>120</y>
-        <width>47</width>
-        <height>13</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>ID</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_6">
-      <property name="geometry">
-       <rect>
-        <x>400</x>
-        <y>150</y>
-        <width>47</width>
-        <height>13</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>nom</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_7">
-      <property name="geometry">
-       <rect>
-        <x>400</x>
-        <y>180</y>
-        <width>47</width>
-        <height>13</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>prenom</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_8">
-      <property name="geometry">
-       <rect>
-        <x>340</x>
-        <y>240</y>
-        <width>111</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>date de naissance</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_9">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>300</y>
-        <width>71</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>departement</string>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="id">
-      <property name="geometry">
-       <rect>
-        <x>460</x>
-        <y>120</y>
-        <width>113</width>
-        <height>20</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="nom">
-      <property name="geometry">
-       <rect>
-        <x>460</x>
-        <y>150</y>
-        <width>113</width>
-        <height>20</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="prenom">
-      <property name="geometry">
-       <rect>
-        <x>460</x>
-        <y>180</y>
-        <width>113</width>
-        <height>20</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="CIN">
-      <property name="geometry">
-       <rect>
-        <x>460</x>
-        <y>210</y>
-        <width>113</width>
-        <height>20</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_5">
-      <property name="geometry">
-       <rect>
-        <x>120</x>
-        <y>120</y>
-        <width>131</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(49, 49, 183, 250), stop:1 rgba(0, 93, 255, 255));
-color: rgb(255, 255, 255);
-font: 75 8pt &quot;The Bold Font&quot;;</string>
-      </property>
-      <property name="text">
-       <string>afficher</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_11">
-      <property name="geometry">
-       <rect>
-        <x>400</x>
-        <y>270</y>
-        <width>51</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>sexe</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_12">
-      <property name="geometry">
-       <rect>
-        <x>380</x>
-        <y>330</y>
-        <width>71</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>Telephone</string>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="TELephone">
-      <property name="geometry">
-       <rect>
-        <x>460</x>
-        <y>330</y>
-        <width>113</width>
-        <height>20</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QComboBox" name="sexe">
-      <property name="geometry">
-       <rect>
-        <x>460</x>
-        <y>270</y>
-        <width>111</width>
+        <y>310</y>
+        <width>201</width>
         <height>22</height>
        </rect>
-      </property>
-      <item>
-       <property name="text">
-        <string>Autre</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>femme</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>homme</string>
-       </property>
-      </item>
-     </widget>
-     <widget class="QComboBox" name="departement">
-      <property name="geometry">
-       <rect>
-        <x>460</x>
-        <y>300</y>
-        <width>111</width>
-        <height>22</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_6">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>550</y>
-        <width>75</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(49, 49, 183, 250), stop:1 rgba(0, 93, 255, 255));
-color: rgb(255, 255, 255);
-font: 75 8pt &quot;The Bold Font&quot;;</string>
-      </property>
-      <property name="text">
-       <string>precedent</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_25">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>20</y>
-        <width>171</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 124);
-font: 75 14pt &quot;Palatino Linotype&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Recherche employé</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_26">
-      <property name="geometry">
-       <rect>
-        <x>430</x>
-        <y>60</y>
-        <width>161</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 124);
-font: 75 14pt &quot;Palatino Linotype&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Ajouter employé</string>
       </property>
      </widget>
      <widget class="Line" name="line_3">
       <property name="geometry">
        <rect>
-        <x>40</x>
-        <y>190</y>
-        <width>251</width>
+        <x>600</x>
+        <y>330</y>
+        <width>391</width>
         <height>20</height>
        </rect>
       </property>
@@ -448,1338 +60,1264 @@ font: 75 14pt &quot;Palatino Linotype&quot;;</string>
        <enum>Qt::Horizontal</enum>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_3">
+     <widget class="QComboBox" name="comboBox_sexe">
       <property name="geometry">
        <rect>
-        <x>60</x>
-        <y>340</y>
-        <width>201</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(49, 49, 183, 250), stop:1 rgba(0, 93, 255, 255));
-color: rgb(255, 255, 255);
-font: 75 8pt &quot;The Bold Font&quot;;</string>
-      </property>
-      <property name="text">
-       <string>afficher Rendement</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_4">
-      <property name="geometry">
-       <rect>
-        <x>60</x>
-        <y>280</y>
-        <width>201</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(49, 49, 183, 250), stop:1 rgba(0, 93, 255, 255));
-color: rgb(255, 255, 255);
-font: 75 8pt &quot;The Bold Font&quot;;
-</string>
-      </property>
-      <property name="text">
-       <string>Liste du personnel</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_53">
-      <property name="geometry">
-       <rect>
-        <x>400</x>
-        <y>210</y>
-        <width>51</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>CIN </string>
-      </property>
-     </widget>
-     <widget class="QDateEdit" name="dateEdit_3">
-      <property name="geometry">
-       <rect>
-        <x>460</x>
-        <y>240</y>
+        <x>710</x>
+        <y>350</y>
         <width>111</width>
         <height>22</height>
        </rect>
       </property>
+      <property name="currentIndex">
+       <number>-1</number>
+      </property>
+      <item>
+       <property name="text">
+        <string>Homme</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Femme</string>
+       </property>
+      </item>
      </widget>
-     <widget class="QLabel" name="label_13">
+     <widget class="QPushButton" name="pushButton_ListingEmploye">
       <property name="geometry">
        <rect>
-        <x>50</x>
-        <y>80</y>
-        <width>21</width>
+        <x>515</x>
+        <y>20</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Listing</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_ID">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>340</y>
+        <width>141</width>
         <height>16</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
       <property name="text">
-       <string>ID</string>
+       <string>Numéro d'identification :</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_7">
-      <property name="geometry">
-       <rect>
-        <x>80</x>
-        <y>80</y>
-        <width>113</width>
-        <height>20</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_9">
-      <property name="geometry">
-       <rect>
-        <x>120</x>
-        <y>150</y>
-        <width>131</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(49, 49, 183, 250), stop:1 rgba(0, 93, 255, 255));
-color: rgb(255, 255, 255);
-font: 75 8pt &quot;The Bold Font&quot;;</string>
-      </property>
-      <property name="text">
-       <string>supprimer employé</string>
-      </property>
-     </widget>
-     <widget class="QTableView" name="tableView_2">
-      <property name="geometry">
-       <rect>
-        <x>460</x>
-        <y>430</y>
-        <width>401</width>
-        <height>351</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(49, 49, 183, 250), stop:1 rgba(0, 93, 255, 255));
-</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="tab_5">
-     <attribute name="title">
-      <string>liste du personnel</string>
-     </attribute>
-     <widget class="QPushButton" name="pushButton_13">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>470</y>
-        <width>75</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(49, 49, 183, 250), stop:1 rgba(0, 93, 255, 255));
-color: rgb(255, 255, 255);
-font: 75 8pt &quot;The Bold Font&quot;;</string>
-      </property>
-      <property name="text">
-       <string>precedent</string>
-      </property>
-     </widget>
-     <widget class="QComboBox" name="comboBox_10">
-      <property name="geometry">
-       <rect>
-        <x>120</x>
-        <y>60</y>
-        <width>69</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <item>
-       <property name="text">
-        <string>JANVIER</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>FEVRIER</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>MARS</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>AVRIL</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>MAI</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>JUIN</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>JUILLET</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>AOUT</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>SEPTEMBRE</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>OCTOBRE</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>NOVEMBRE</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>DECEMBRE</string>
-       </property>
-      </item>
-     </widget>
-     <widget class="QLabel" name="label_54">
-      <property name="geometry">
-       <rect>
-        <x>80</x>
-        <y>60</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>Mois :</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_49">
-      <property name="geometry">
-       <rect>
-        <x>80</x>
-        <y>30</y>
-        <width>71</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>departement</string>
-      </property>
-     </widget>
-     <widget class="QComboBox" name="comboBox_12">
-      <property name="geometry">
-       <rect>
-        <x>170</x>
-        <y>30</y>
-        <width>111</width>
-        <height>22</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QTableView" name="tableView">
-      <property name="geometry">
-       <rect>
-        <x>75</x>
-        <y>131</y>
-        <width>651</width>
-        <height>341</height>
-       </rect>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="tab_4">
-     <attribute name="title">
-      <string>affichage employé</string>
-     </attribute>
-     <widget class="QLabel" name="label_14">
-      <property name="geometry">
-       <rect>
-        <x>280</x>
-        <y>190</y>
-        <width>51</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>Salaire :</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_7">
-      <property name="geometry">
-       <rect>
-        <x>510</x>
-        <y>320</y>
-        <width>131</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(49, 49, 183, 250), stop:1 rgba(0, 93, 255, 255));
-color: rgb(255, 255, 255);
-font: 75 8pt &quot;The Bold Font&quot;;</string>
-      </property>
-      <property name="text">
-       <string>supprimer employé</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_8">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>470</y>
-        <width>75</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(49, 49, 183, 250), stop:1 rgba(0, 93, 255, 255));
-color: rgb(255, 255, 255);
-font: 75 8pt &quot;The Bold Font&quot;;</string>
-      </property>
-      <property name="text">
-       <string>precedent</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_2">
+     <widget class="QComboBox" name="comboBox_service">
       <property name="geometry">
        <rect>
         <x>240</x>
-        <y>40</y>
-        <width>20</width>
-        <height>401</height>
-       </rect>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_23">
-      <property name="geometry">
-       <rect>
-        <x>280</x>
-        <y>220</y>
-        <width>141</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>Nombre D'heure Travaillé :</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_24">
-      <property name="geometry">
-       <rect>
-        <x>280</x>
-        <y>150</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>Mois :</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_29">
-      <property name="geometry">
-       <rect>
-        <x>440</x>
-        <y>210</y>
-        <width>51</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>/192</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_37">
-      <property name="geometry">
-       <rect>
-        <x>184</x>
-        <y>500</y>
-        <width>51</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Telephone</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_32">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>230</y>
-        <width>51</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>Sexe :</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_20">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
         <y>200</y>
-        <width>111</width>
-        <height>31</height>
+        <width>201</width>
+        <height>22</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
+      <property name="currentIndex">
+       <number>0</number>
       </property>
-      <property name="text">
-       <string>Date De Naissance :</string>
-      </property>
+      <item>
+       <property name="text">
+        <string>Ressource humaine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>partenariat</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>annonce</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>finance</string>
+       </property>
+      </item>
      </widget>
-     <widget class="QLabel" name="label_19">
+     <widget class="QPushButton" name="pushButton_Edit">
       <property name="geometry">
        <rect>
-        <x>20</x>
-        <y>270</y>
-        <width>71</width>
-        <height>21</height>
+        <x>175</x>
+        <y>20</y>
+        <width>93</width>
+        <height>28</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
       <property name="text">
-       <string>Telephone :</string>
+       <string>Modifier</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_17">
+     <widget class="QPushButton" name="pushButton_StatistiquesEmploye">
       <property name="geometry">
        <rect>
-        <x>20</x>
-        <y>150</y>
-        <width>47</width>
-        <height>13</height>
+        <x>625</x>
+        <y>20</y>
+        <width>93</width>
+        <height>28</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
       <property name="text">
-       <string>Nom :</string>
+       <string>Statistiques</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_15">
+     <widget class="QLabel" name="label_service">
       <property name="geometry">
        <rect>
-        <x>20</x>
-        <y>290</y>
-        <width>91</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>Salaire De Base :</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_18">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>170</y>
-        <width>47</width>
+        <x>100</x>
+        <y>200</y>
+        <width>141</width>
         <height>16</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
       <property name="text">
-       <string>Prenom :</string>
+       <string>Service de l'employé : </string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_16">
+     <widget class="QLineEdit" name="lineEdit_ID">
       <property name="geometry">
        <rect>
-        <x>20</x>
-        <y>250</y>
-        <width>101</width>
+        <x>240</x>
+        <y>340</y>
+        <width>201</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_confirmermotdepasse">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>430</y>
+        <width>201</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Save">
+      <property name="geometry">
+       <rect>
+        <x>65</x>
+        <y>20</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ajouter</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_25">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>580</y>
+        <width>151</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Options</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_CIN">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>370</y>
+        <width>141</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>               Numéro CIN :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>140</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Nom de l'employé :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_mailTravail">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>540</y>
+        <width>131</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>E-mail de travail :</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_IDSearch">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>620</y>
+        <width>401</width>
         <height>21</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);
-</string>
-      </property>
       <property name="text">
-       <string>Departement :</string>
+       <string>Activer la recherche instantanée par Numéro d'identification</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_21">
+     <widget class="QLabel" name="label_RechercherEmploye">
       <property name="geometry">
        <rect>
-        <x>20</x>
-        <y>130</y>
-        <width>47</width>
-        <height>13</height>
+        <x>90</x>
+        <y>80</y>
+        <width>151</width>
+        <height>20</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
+      <property name="text">
+       <string>Rechercher un employé : </string>
+      </property>
+     </widget>
+     <widget class="QDateEdit" name="dateEdit_dateNaissance">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>380</y>
+        <width>110</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="date">
+       <date>
+        <year>1800</year>
+        <month>1</month>
+        <day>1</day>
+       </date>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_sexe">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>350</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
       </property>
       <property name="text">
-       <string>ID :</string>
+       <string>Sexe : </string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_adresse">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>510</y>
+        <width>201</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_supprmier">
+      <property name="geometry">
+       <rect>
+        <x>285</x>
+        <y>20</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Supprimer</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_nom">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>140</y>
+        <width>201</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
       </property>
      </widget>
      <widget class="Line" name="line_4">
       <property name="geometry">
        <rect>
-        <x>20</x>
-        <y>350</y>
-        <width>211</width>
-        <height>16</height>
+        <x>80</x>
+        <y>490</y>
+        <width>401</width>
+        <height>20</height>
        </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: rgb(235, 235, 235);</string>
       </property>
       <property name="orientation">
        <enum>Qt::Horizontal</enum>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_11">
+     <widget class="QLabel" name="label_dateNaissance">
       <property name="geometry">
        <rect>
-        <x>360</x>
-        <y>290</y>
-        <width>271</width>
-        <height>23</height>
+        <x>590</x>
+        <y>380</y>
+        <width>121</width>
+        <height>16</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(49, 49, 183, 250), stop:1 rgba(0, 93, 255, 255));
-color: rgb(255, 255, 255);
-font: 75 8pt &quot;The Bold Font&quot;;</string>
-      </property>
       <property name="text">
-       <string>Afficher Nombre d'heure travaillé detaillé</string>
+       <string>Date de Naissance :</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_30">
+     <widget class="QLabel" name="label_15">
       <property name="geometry">
        <rect>
-        <x>20</x>
-        <y>190</y>
-        <width>47</width>
-        <height>13</height>
+        <x>600</x>
+        <y>320</y>
+        <width>101</width>
+        <height>16</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
       </property>
       <property name="text">
-       <string>CIN :</string>
+       <string>Status Sociale</string>
       </property>
      </widget>
-     <widget class="QComboBox" name="comboBox_15">
+     <widget class="QLabel" name="label_7">
       <property name="geometry">
        <rect>
-        <x>320</x>
-        <y>150</y>
-        <width>69</width>
+        <x>90</x>
+        <y>260</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>IDs Sociale</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_motdepasse">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>400</y>
+        <width>91</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Mot de Passe : </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_NSS">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>310</y>
+        <width>151</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Numéro Sécurité Sociale : </string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_Nom">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>80</y>
+        <width>401</width>
         <height>22</height>
        </rect>
       </property>
-      <item>
-       <property name="text">
-        <string>JANVIER</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>FEVRIER</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>MARS</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>AVRIL</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>MAI</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>JUIN</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>JUILLET</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>AOUT</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>SEPTEMBRE</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>OCTOBRE</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>NOVEMBRE</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>DECEMBRE</string>
-       </property>
-      </item>
+      <property name="font">
+       <font>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="maxVisibleItems">
+       <number>2</number>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_mailTravail">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>540</y>
+        <width>201</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_prenom">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>170</y>
+        <width>131</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Prenom de l'employé :</string>
+      </property>
      </widget>
      <widget class="Line" name="line_7">
       <property name="geometry">
        <rect>
-        <x>20</x>
-        <y>80</y>
-        <width>211</width>
-        <height>16</height>
+        <x>60</x>
+        <y>600</y>
+        <width>401</width>
+        <height>20</height>
        </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: rgb(235, 235, 235);</string>
       </property>
       <property name="orientation">
        <enum>Qt::Horizontal</enum>
       </property>
      </widget>
-     <widget class="Line" name="line_8">
+     <widget class="Line" name="line_2">
       <property name="geometry">
        <rect>
-        <x>260</x>
-        <y>350</y>
-        <width>381</width>
-        <height>16</height>
+        <x>80</x>
+        <y>280</y>
+        <width>401</width>
+        <height>20</height>
        </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: rgb(235, 235, 235);</string>
       </property>
       <property name="orientation">
        <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_motdepasse">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>400</y>
+        <width>201</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_CIN">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>370</y>
+        <width>201</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_confirmermotdepasse">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>430</y>
+        <width>171</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Confirmer le mot de Passe :</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Annuler">
+      <property name="geometry">
+       <rect>
+        <x>395</x>
+        <y>20</y>
+        <width>100</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Nettoyer</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_prenom">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>170</y>
+        <width>201</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>480</y>
+        <width>151</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Contacte Informations</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_adresse">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>510</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Adresse :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_SortieApplicationMessage">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>660</y>
+        <width>141</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Sortie de l'application :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_SortieApplication">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>660</y>
+        <width>511</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_PasswordControl">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>400</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_NomControl">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>140</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_NssControl">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>310</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_PasswordConfirmControl">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>430</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_CinControl">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>370</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_PrenomControl">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>170</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_ServiceControl">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>200</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_IDControl">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>340</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_mailControl">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>540</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_AdresseControl">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>510</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_DateNaissanceControl">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>380</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_SexeControl">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>350</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>congé</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton_AjoutConge">
+      <property name="geometry">
+       <rect>
+        <x>115</x>
+        <y>10</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ajouter</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_10">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>380</y>
+        <width>401</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_IDCongeEmploye">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>131</y>
+        <width>201</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_CommentaireEmploye">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>550</y>
+        <width>171</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Commentaire Employe : </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_DateDebutConge">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>270</y>
+        <width>121</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Date début conge :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_IDCongeEmploye">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>130</y>
+        <width>151</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Numéro d'indentification :</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_ModifierConge">
+      <property name="geometry">
+       <rect>
+        <x>225</x>
+        <y>10</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Modifier</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_DateFinConge">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>300</y>
+        <width>121</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Date fin conge :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_IDCongeEmploye_2">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>70</y>
+        <width>141</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Rechercher un congé : </string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_TypeConge">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>160</y>
+        <width>201</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentIndex">
+       <number>-1</number>
+      </property>
+      <property name="minimumContentsLength">
+       <number>0</number>
+      </property>
+      <item>
+       <property name="text">
+        <string>Congé sans solde</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Congé payé</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Congé annuel</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Congé d'examen</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Congé de formation</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Congé maladie</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Congé matérnité</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QDateEdit" name="dateEdit_FinConge">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>300</y>
+        <width>110</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="date">
+       <date>
+        <year>1800</year>
+        <month>1</month>
+        <day>1</day>
+       </date>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_Responsable">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>420</y>
+        <width>291</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(255, 255, 255)</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_9">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>250</y>
+        <width>401</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_SupprimerConge">
+      <property name="geometry">
+       <rect>
+        <x>335</x>
+        <y>10</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Supprimer</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_commentaireResponsable">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>420</y>
+        <width>171</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Commentaire Responsable : </string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_Employe">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>550</y>
+        <width>291</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(255, 255, 255)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_ListingConge">
+      <property name="geometry">
+       <rect>
+        <x>565</x>
+        <y>10</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Listing</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>240</y>
+        <width>111</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Dates du conge</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_NettoyerConge">
+      <property name="geometry">
+       <rect>
+        <x>445</x>
+        <y>10</y>
+        <width>100</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Nettoyer</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_TypeConge">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>160</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Type de conge :</string>
+      </property>
+     </widget>
+     <widget class="QDateEdit" name="dateEdit_DebutConge">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>270</y>
+        <width>110</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="date">
+       <date>
+        <year>1800</year>
+        <month>1</month>
+        <day>1</day>
+       </date>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>370</y>
+        <width>211</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Informations supplémentaires</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_IDCongeEmployeRechercher">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>70</y>
+        <width>391</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTableView" name="tableViewConge">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>90</y>
+        <width>451</width>
+        <height>591</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(255, 255, 255)</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_typeCongeControl">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>160</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_DateDebutCongeControl">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>270</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_DateFinCongeControl">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>300</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_IDCongeControl">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>130</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_SortieApplicationMessage_2">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>680</y>
+        <width>141</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Sortie de l'application :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="SortieApplicationConge">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>680</y>
+        <width>601</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>personnel</string>
+     </attribute>
+     <widget class="QTableView" name="tableViewEmploye">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>1071</width>
+        <height>611</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(255, 255, 255)</string>
       </property>
      </widget>
     </widget>
     <widget class="QWidget" name="tab_3">
      <attribute name="title">
-      <string>Nombre d'heure</string>
+      <string>pointage</string>
      </attribute>
-     <widget class="QDateEdit" name="dateEdit_2">
-      <property name="geometry">
-       <rect>
-        <x>90</x>
-        <y>150</y>
-        <width>110</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_5">
-      <property name="geometry">
-       <rect>
-        <x>213</x>
-        <y>120</y>
-        <width>20</width>
-        <height>161</height>
-       </rect>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_38">
-      <property name="geometry">
-       <rect>
-        <x>170</x>
-        <y>200</y>
-        <width>51</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>/8</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_39">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>210</y>
-        <width>131</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>Nombre d'heure travaillé :</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_40">
-      <property name="geometry">
-       <rect>
-        <x>380</x>
-        <y>200</y>
-        <width>51</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>/192</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_41">
-      <property name="geometry">
-       <rect>
-        <x>240</x>
-        <y>210</y>
-        <width>121</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>Nombre d'heure travaillé :</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_42">
-      <property name="geometry">
-       <rect>
-        <x>250</x>
-        <y>151</y>
-        <width>41</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>Mois :</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_43">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>150</y>
-        <width>51</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>Jour : </string>
-      </property>
-     </widget>
-     <widget class="Line" name="line_6">
-      <property name="geometry">
-       <rect>
-        <x>453</x>
-        <y>120</y>
-        <width>20</width>
-        <height>161</height>
-       </rect>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_44">
-      <property name="geometry">
-       <rect>
-        <x>620</x>
-        <y>200</y>
-        <width>51</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>/48</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_45">
-      <property name="geometry">
-       <rect>
-        <x>480</x>
-        <y>150</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>Mois :</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_46">
-      <property name="geometry">
-       <rect>
-        <x>480</x>
-        <y>210</y>
-        <width>121</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>Nombre d'heure travaillé :</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_47">
-      <property name="geometry">
-       <rect>
-        <x>610</x>
-        <y>150</y>
-        <width>61</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>Semaine :</string>
-      </property>
-     </widget>
-     <widget class="QComboBox" name="comboBox_9">
-      <property name="geometry">
-       <rect>
-        <x>670</x>
-        <y>150</y>
-        <width>69</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <item>
-       <property name="text">
-        <string>1</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>2</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>3</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>4</string>
-       </property>
-      </item>
-     </widget>
-     <widget class="QLabel" name="label_48">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>70</y>
-        <width>51</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>Prénom :</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_50">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>30</y>
-        <width>47</width>
-        <height>13</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>ID :</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_51">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>50</y>
-        <width>47</width>
-        <height>13</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>Nom :</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_52">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>90</y>
-        <width>71</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>Departement :</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_12">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>470</y>
-        <width>75</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(49, 49, 183, 250), stop:1 rgba(0, 93, 255, 255));
-color: rgb(255, 255, 255);
-font: 75 8pt &quot;The Bold Font&quot;;</string>
-      </property>
-      <property name="text">
-       <string>precedent</string>
-      </property>
-     </widget>
-     <widget class="QComboBox" name="comboBox_13">
-      <property name="geometry">
-       <rect>
-        <x>290</x>
-        <y>150</y>
-        <width>69</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <item>
-       <property name="text">
-        <string>JANVIER</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>FEVRIER</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>MARS</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>AVRIL</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>MAI</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>JUIN</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>JUILLET</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>AOUT</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>SEPTEMBRE</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>OCTOBRE</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>NOVEMBRE</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>DECEMBRE</string>
-       </property>
-      </item>
-     </widget>
-     <widget class="QComboBox" name="comboBox_14">
-      <property name="geometry">
-       <rect>
-        <x>520</x>
-        <y>150</y>
-        <width>69</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <item>
-       <property name="text">
-        <string>JANVIER</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>FEVRIER</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>MARS</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>AVRIL</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>MAI</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>JUIN</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>JUILLET</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>AOUT</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>SEPTEMBRE</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>OCTOBRE</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>NOVEMBRE</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>DECEMBRE</string>
-       </property>
-      </item>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="tab_6">
-     <attribute name="title">
-      <string>rendement par hrs</string>
-     </attribute>
-     <widget class="QTableWidget" name="tableWidget_2">
+     <widget class="QTableView" name="tableViewPointage">
       <property name="geometry">
        <rect>
         <x>130</x>
-        <y>100</y>
-        <width>431</width>
-        <height>351</height>
-       </rect>
-      </property>
-      <column>
-       <property name="text">
-        <string>ID</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Nom</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Prenom</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Nbr Hrs </string>
-       </property>
-      </column>
-     </widget>
-     <widget class="QPushButton" name="pushButton_14">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>470</y>
-        <width>75</width>
-        <height>23</height>
+        <y>150</y>
+        <width>621</width>
+        <height>451</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color:qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(49, 49, 183, 250), stop:1 rgba(0, 93, 255, 255));
-color: rgb(255, 255, 255);
-font: 75 8pt &quot;The Bold Font&quot;;</string>
-      </property>
-      <property name="text">
-       <string>precedent</string>
+       <string notr="true">background-color:rgb(255, 255, 255)</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_56">
+     <widget class="QLineEdit" name="lineEdit_IDRechercherPointage">
       <property name="geometry">
        <rect>
-        <x>80</x>
-        <y>60</y>
-        <width>41</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>Mois :</string>
-      </property>
-     </widget>
-     <widget class="QComboBox" name="comboBox_5">
-      <property name="geometry">
-       <rect>
-        <x>170</x>
-        <y>30</y>
-        <width>111</width>
+        <x>220</x>
+        <y>70</y>
+        <width>391</width>
         <height>22</height>
        </rect>
       </property>
      </widget>
-     <widget class="QLabel" name="label_57">
+     <widget class="QLabel" name="label_IDCongeEmploye_5">
       <property name="geometry">
        <rect>
-        <x>80</x>
-        <y>30</y>
-        <width>71</width>
+        <x>40</x>
+        <y>70</y>
+        <width>181</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Rechercher un Pointage       : </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_RechercherPointageControl">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>70</y>
+        <width>21</width>
         <height>21</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">font: 9pt &quot;Segoe MDL2 Assets&quot;;
-color: rgb(255, 255, 255);</string>
-      </property>
       <property name="text">
-       <string>departement</string>
+       <string/>
       </property>
-     </widget>
-     <widget class="QComboBox" name="comboBox_11">
-      <property name="geometry">
-       <rect>
-        <x>120</x>
-        <y>60</y>
-        <width>69</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <item>
-       <property name="text">
-        <string>JANVIER</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>FEVRIER</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>MARS</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>AVRIL</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>MAI</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>JUIN</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>JUILLET</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>AOUT</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>SEPTEMBRE</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>OCTOBRE</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>NOVEMBRE</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>DECEMBRE</string>
-       </property>
-      </item>
      </widget>
     </widget>
    </widget>
@@ -1789,7 +1327,7 @@ color: rgb(255, 255, 255);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>852</width>
+     <width>1307</width>
      <height>21</height>
     </rect>
    </property>
