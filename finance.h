@@ -25,6 +25,7 @@ public:
     void setnom(QString);
     void setprenom(QString);
     void setadrss(QString);
+
     bool ajouter();
     QSqlQueryModel* afficher();
     bool supprimer(int);

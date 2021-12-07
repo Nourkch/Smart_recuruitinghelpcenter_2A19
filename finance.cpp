@@ -1,3 +1,4 @@
+
 #include "finance.h"
 #include<QIntValidator>
 #include <QApplication>
